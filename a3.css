@@ -1,0 +1,48 @@
+/*
+This file contains the styling for index.html.
+*/
+
+div{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+h1{
+	margin: 0px;
+}
+
+h2{
+	margin: 0px;
+}
+
+#banner{
+	background-color: yellow;
+	border-color: purple;
+	border-style: solid;
+	border-width: 10px 10px 0px 10px;
+	height: 150px;
+	width: calc(100% - 20px);
+}
+#buttons{
+	background-color: green;
+	border-color: purple;
+	border-style: solid;
+	border-width: 0px 10px 0px 10px;
+	height: 50px;
+	width: calc(100% - 20px);
+}
+#tweets{
+	background-color: yellow;
+	border-color: blue;
+	border-style: solid;
+	border-width: 0px 10px 10px 10px;
+	min-height:500px;
+	max-height:1500px;
+	width: calc(100% - 20px);
+}

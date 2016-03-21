@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--Makes the page responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+	<!--min jQuery source: https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
+	        Saved for offline access/testing.-->
+	<script src="jQuery.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="a3.css">
+	
+	<!--Page head-->
+	
+	<head>
+		<title> SpyHawk, your Tweet query tool </title>
+	</head>
+	
+	<!--Body-->
+	
+	<body style=" margin:0cm 0cm 0cm 0cm;">
+		<!--Banner which contains the SpyHawk title as well as the 
+		    "For all your Tweet querying needs!" flavour text and instructions.-->
+        <div id="banner">
+            <center>
+				<br />
+                <h1>
+                    SpyHawk
+                </h1>
+                <h2>
+                    For all your Tweet querying needs!
+                </h2>
+				<br />
+				Select a query by pressing the appropriate button:
+            </center>
+        </div>
+		
+		<!--Container for all the buttons.-->
+		<div id="buttons">
+			<button id="allTweets" width="15%">View all tweets</button>
+			<button id="allUsers" width="15%">View all users</button>
+			<button id="allUrls" width="15%">View all URLs</button>
+			<button id="someTweet" width="15%">View tweet with specific ID</button>
+			<button id="someUser" width="15%">View specific user info</button>
+			<button id="maxRetweet" width="15%">View tweet with highest retweet count</button>
+		</div>
+		
+		<!--Container for the information returned by the Node.js server.-->
+		<div id="tweets">
+			Your query results will be put here.
+		</div>
+	</body>
+	
+	<!--Scripts for AJAX requests-->
+	<script src="a3.js"></script>
+</html>
